@@ -1,9 +1,9 @@
 # Auditoria de Exoplanetas: Revisionismo via Machine Learning (Kepler)
 
-[cite_start]Este repositório contém a implementação de um pipeline de **Inteligência Artificial** voltado para o revisionismo e a replicação de classificações no catálogo da missão Kepler (NASA)O objetivo central é utilizar técnicas de aprendizado de máquina para identificar e mitigar a incidência de **falsos positivos** em dados astronômicos consolidados[cite: 30, 31].
+[cite_start]Este repositório contém a implementação de um pipeline de **Inteligência Artificial** voltado para o revisionismo e a replicação de classificações no catálogo da missão Kepler (NASA)O objetivo central é utilizar técnicas de aprendizado de máquina para identificar e mitigar a incidência de **falsos positivos** em dados astronômicos consolidados.
 
 ## 🔭 Sobre o Projeto
-[cite_start]Diferente de abordagens voltadas à descoberta de novos corpos celestes, este trabalho foca na **auditoria científica**. Utilizamos uma abordagem híbrida que combina o processamento de sinais clássico com modelos preditivos modernos para validar a integridade de catálogos existentes e replicar resultados oficiais com alta precisão.
+Diferente de abordagens voltadas à descoberta de novos corpos celestes, este trabalho foca na **auditoria científica**. Utilizamos uma abordagem híbrida que combina o processamento de sinais clássico com modelos preditivos modernos para validar a integridade de catálogos existentes e replicar resultados oficiais com alta precisão.
 
 ### Fluxo de Trabalho (Pipeline)
 1. **Extração de Atributos:** O algoritmo *Box Least Squares* (BLS) é aplicado às curvas de luz para extrair parâmetros físicos como período orbital e profundidade de trânsito.
